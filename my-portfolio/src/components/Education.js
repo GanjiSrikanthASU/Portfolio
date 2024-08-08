@@ -9,7 +9,7 @@ const educationData = [
     dates: "Jan 2021 – May 2022 (4.00 GPA)",
     coursework:
       "Foundations of Algorithms, Distributed Database Systems, Cloud Computing, Data Mining, Data Visualization",
-    logo: `${process.env.PUBLIC_URL}/asu.jpg`,
+    logo: `${process.env.PUBLIC_URL}/ASU.jpg`,
   },
   {
     degree: "Bachelor of Technology in Electronics and Communication",
@@ -18,7 +18,7 @@ const educationData = [
     dates: "Sep 2014 – May 2018 (8.90 GPA)",
     coursework:
       "Database Management Systems, Data Structures & Algorithms, Operating Systems, Object Oriented Design, Distributed, Multi-tiered Systems, Mathematics.",
-    logo: `${process.env.PUBLIC_URL}/snist.jpeg`,
+    logo: `${process.env.PUBLIC_URL}/SNIST.jpeg`,
   },
 ];
 

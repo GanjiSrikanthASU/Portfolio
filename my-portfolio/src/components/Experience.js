@@ -23,7 +23,7 @@ const experiences = [
       "Designed and maintained databases using Flask, SQL, and PostgreSQL.",
     ],
     techStack: ["Vue.js", "HTML5", "JavaScript", "Flask", "PostgreSQL"],
-    logo: `${process.env.PUBLIC_URL}/asu.jpg`,
+    logo: `${process.env.PUBLIC_URL}/ASU.jpg`,
   },
   {
     title: "Senior Systems Engineer - Infosys",
@@ -34,7 +34,7 @@ const experiences = [
       "Worked extensively on the backend using Java with Spring MVC and Spring Boot-based services through REST.",
     ],
     techStack: ["MEAN Stack", "React", "Angular", "Python"],
-    logo: `${process.env.PUBLIC_URL}/infosys.jpg`,
+    logo: `${process.env.PUBLIC_URL}/Infosys.jpg`,
   },
 ];
 
