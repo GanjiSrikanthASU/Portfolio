@@ -56,3 +56,35 @@
 .project-features {
   margin-bottom: 1.5rem;
 }
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .project-detail {
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-detail h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-detail h3 {
+    font-size: 1.4rem;
+  }
+
+  .project-detail p,
+  .project-detail li {
+    font-size: 1.1rem;
+  }
+
+  .project-overview,
+  .project-purpose,
+  .project-technologies,
+  .project-role,
+  .project-features {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,7 +1,6 @@
 /* App.css */
 
 /* Base styling for the app container */
-
 body {
   background-image: url("../public/bg-3d-img.jpg"); 
   background-size: cover;
@@ -12,6 +11,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Ensure the App container uses the same font */
 .App {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -19,12 +19,13 @@ body {
   box-sizing: border-box;
 }
 
-/* Styling for the main content */
+/* Main content styling */
 .main-content {
   padding-top: 60px; /* Adjust based on the Navbar height */
+  padding-bottom: 20px; /* Add bottom padding to avoid content being cut off */
 }
 
-/* Responsive design: Ensure the content does not overflow */
+/* Responsive design */
 @media (max-width: 768px) {
   .App {
     padding: 0 10px;

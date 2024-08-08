@@ -1,14 +1,8 @@
-/* Certifications.css */
-
 .certifications {
   padding: 4rem 2rem;
-  background: linear-gradient(
-    to bottom right,
-    #ffffff,
-    #3e91d4
-  ); 
+  background: linear-gradient(to bottom right, #ffffff, #3e91d4);
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   margin-top: 20px;
@@ -23,11 +17,7 @@
 }
 
 .certification-item {
-  background: linear-gradient(
-    to top left,
-    #ffffff,
-    #95c6ee
-  );
+  background: linear-gradient(to top left, #ffffff, #95c6ee);
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,4 +30,45 @@
   color: #007acc;
   margin: 0;
   text-align: center;
+}
+
+/* Mobile-friendly adjustments */
+@media only screen and (max-width: 768px) {
+  .certifications {
+    padding: 3rem 1.5rem;
+    margin-bottom: 50px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .certification-item {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .certification-item h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .certifications {
+    padding: 2rem 1rem;
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .certification-item {
+    padding: 0.8rem;
+  }
+
+  .certification-item h3 {
+    font-size: 1.2rem;
+  }
 }

@@ -77,6 +77,11 @@
 }
 
 @media (max-width: 768px) {
+  .home {
+    padding: 3rem 1.5rem;
+    max-width: 90%;
+  }
+
   .home h1 {
     font-size: 2.2rem;
   }
@@ -87,5 +92,50 @@
 
   .home .welcome-text {
     font-size: 1rem;
+  }
+
+  .home-link {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem 0;
+  }
+
+  .social-links a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 2rem 1rem;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem;
+  }
+
+  .home .title {
+    font-size: 1rem;
+  }
+
+  .home .welcome-text {
+    font-size: 0.9rem;
+  }
+
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+
+  .home-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .social-links a {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
   }
 }

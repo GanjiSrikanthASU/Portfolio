@@ -78,6 +78,8 @@
   .nav-links {
     flex-direction: column;
     width: 100%;
+    gap: 1rem; /* Reduced gap for better spacing on small screens */
+    margin-top: 1rem; /* Added margin for spacing below brand */
   }
 
   .nav-links li {
@@ -88,5 +90,34 @@
     width: 100%;
     padding: 1rem 0;
     text-align: left;
+  }
+
+  .nav-brand a {
+    font-size: 1.5rem; /* Slightly smaller font size on smaller screens */
+  }
+}
+
+/* Mobile Toggle Button (Optional) */
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
   }
 }

@@ -1,18 +1,12 @@
-/* About.css */
-
 .about {
   padding: 4rem 2rem;
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(
-    to bottom right,
-    #ffffff,
-    #3e91d4
-  ); 
+  background: linear-gradient(to bottom right, #ffffff, #3e91d4);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   border-radius: 30px;
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-bottom: 80px;
 }
 
@@ -84,4 +78,75 @@
 
 .download-button:hover {
   background-color: #005fa3;
+}
+
+/* Mobile-friendly adjustments */
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 3rem 1.5rem;
+    margin-bottom: 50px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
+
+  .achievements h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .achievements li {
+    font-size: 1rem;
+  }
+
+  .download-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about {
+    padding: 2rem 1rem;
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .about-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .achievements h3 {
+    font-size: 1.5rem;
+  }
+
+  .achievements li {
+    font-size: 0.9rem;
+  }
+
+  .download-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
 }
