@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Google Cloud Powered FREEBIE",
+    "description": {
+        "project": {
+          "overview": "During my Master's program at Arizona State University, I worked on a project called FREEBIE as part of my cloud computing coursework. This was a web application designed for our college organization to post free food locations and events on campus.",
+          "purpose": "The application aimed to provide a platform for students to view and post free food locations and events on campus, enhancing event attendance and reducing food waste.",
+          "technologies_used": [
+            "Django framework",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python",
+            "Google Cloud Datastore",
+            "Google Maps JavaScript API",
+            "Gmail API",
+            "Google Geocoding Service",
+            "Google App Engine"
+          ],
+          "role": "I developed both the front-end and back-end of the application. My responsibilities included integrating various Google APIs to enhance the app's functionality, ensuring a user-friendly interface, and deploying the application on Google App Engine.",
+          "key_features": [
+            "User Interface: Developed using the Django framework along with HTML, CSS, and JavaScript to create a user-friendly interface where users could view and post events.",
+            "Backend Functionality: Used Python for backend development to handle data processing and interaction with the database.",
+            "Google Cloud Datastore: Used for storing event and location data.",
+            "Google Maps JavaScript API: Integrated for displaying event locations on an interactive map.",
+            "Gmail API: Implemented to send email notifications about new events.",
+            "Google Geocoding Service: Used to convert addresses into geographic coordinates to plot on the map.",
+            "Deployment: The application was deployed using Google App Engine, ensuring scalability and reliability."
+          ]
+        }
+      },
+    "technologies": "Django, HTML, CSS, JavaScript, Backend using Python"
+  },
+  {
+    "title": "Elastic Cloud Application",
+    "description": {
+        "project": {
+          "overview": "This is one of my academic projects from my cloud computing coursework during my master's at Arizona State University. The project, titled 'Elastic Cloud Application - Using AWS,' involved developing an image recognition service using a deep learning model to predict the content of images provided by users.",
+          "purpose": "The project aimed to develop a scalable image recognition service that could predict the content of user-provided images by leveraging cloud computing infrastructure as a service (IaaS).",
+          "technologies_used": [
+            "Amazon Web Services (AWS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Queue Service (SQS)"
+          ],
+          "role": "I developed an image recognition service using a deep learning model and utilized AWS to build and deploy the application. My responsibilities included setting up EC2 instances for compute resources, configuring S3 for image storage, and managing SQS for communication between different parts of the application.",
+          "key_features": [
+            "Image Recognition: Developed a service that predicts the content of images using a deep learning model.",
+            "Scalability: The application could scale its resources up and down based on demand.",
+            "AWS Integration: Utilized EC2, S3, and SQS for compute resources, storage, and communication management, respectively."
+          ]
+        }
+      },
+    "technologies": "AWS (EC2, S3, SQS)"
+  },
+  {
+    "title": "E-commerce Website",
+    "description": {
+        "project": {
+          "overview": "As part of my trainee coursework at Infosys, I designed and developed an e-commerce website using Angular 6 for the front end, Node.js and Express.js for the back end, and MongoDB for data storage.",
+          "purpose": "The application allows users to browse products, add items to their cart, and complete purchases. Key features include product listing, booking, cart management, and final billing.",
+          "technologies_used": [
+            "Angular 6",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+          ],
+          "role": "I implemented the data storage layer using MongoDB and built the front end with Angular. I designed the application’s architecture, ensured seamless front-end and back-end interaction, and managed state in the Angular application.",
+          "key_features": [
+            "Product Listing and Details: Users can view available products with detailed descriptions.",
+            "Cart Management: Users can add items to their cart, view the cart, and update quantities.",
+            "Checkout and Billing: Users can proceed to checkout and complete their purchase with final billing."
+          ]
+        }
+      },
+    "technologies": "Angular 6, Node.js, Express.js, MongoDB"
+  },
+  {
+    "title": "Interactive Disaster Response Visualization",
+    "description": {
+        "project": {
+          "overview": "During my Data Visualization course at Arizona State University, I undertook the Vast Mini Challenge 2019 'Voice from the People.' Using the D3 JavaScript framework, I visualized survey data from St. Himark to analyze earthquake damage and recommend efficient resource allocation strategies.",
+          "purpose": "The project aimed to highlight the power of visual analytics in disaster response and provide actionable insights for decision-makers based on community feedback. It involved preprocessing data to focus on relevant earthquake-related information and implementing algorithms to analyze word frequencies and community sentiments over time.",
+          "technologies_used": [
+            "D3 JavaScript framework",
+            "GeoJSON",
+            "Circle packing diagrams",
+            "Percentage bar charts"
+          ],
+          "role": "I visualized survey data from St. Himark using the D3 JavaScript framework to analyze earthquake damage and recommend efficient resource allocation strategies. I worked on preprocessing data, implementing algorithms for word frequency and sentiment analysis, and creating interactive visualizations.",
+          "key_features": [
+            "Interactive GeoJSON Maps: Visualized geographical data and trends.",
+            "Circle Packing Diagrams: Represented hierarchical data like word frequency categories.",
+            "Percentage Bar Charts: Compared proportional contributions of different resource needs."
+          ]
+        }
+      },
+    "technologies": "D3 JavaScript, GeoJSON"
+  }
+]

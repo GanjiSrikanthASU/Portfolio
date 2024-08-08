@@ -1,0 +1,43 @@
+/* Certifications.css */
+
+.certifications {
+  padding: 4rem 2rem;
+  background: linear-gradient(
+    to bottom right,
+    #ffffff,
+    #3e91d4
+  ); 
+  max-width: 1200px;
+  margin: 0 auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.certification-item {
+  background: linear-gradient(
+    to top left,
+    #ffffff,
+    #95c6ee
+  );
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.certification-item h3 {
+  font-size: 1.5rem;
+  color: #007acc;
+  margin: 0;
+  text-align: center;
+}

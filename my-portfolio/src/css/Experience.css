@@ -1,0 +1,103 @@
+.experience {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #ffffff, #3e91d4);
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top left, #ffffff, #95c6ee);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-5px);
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.job-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.job-title h3 {
+  font-size: 1.8rem;
+  color: #007acc;
+  margin: 0;
+}
+
+.date {
+  font-size: 1rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.job-description {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.job-description li {
+  margin-bottom: 0.5rem;
+}
+
+.tech-stack {
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  background: #318bc7;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.company-logo-container {
+  flex: 0 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-logo {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  border-radius: 8px;
+}

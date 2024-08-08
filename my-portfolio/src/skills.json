@@ -1,0 +1,76 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": ["Python", "JavaScript", "TypeScript", "C", "JAVA"]
+  },
+  {
+    "category": "Databases",
+    "skills": ["MongoDB", "MySQL", "SQL Server", "PostgreSQL"]
+  },
+  {
+    "category": "Web Technologies",
+    "skills": [
+      "Angular 8",
+      "React",
+      "Redux",
+      "React Hooks",
+      "Vue.js",
+      "Django",
+      "HTML",
+      "CSS",
+      "jQuery",
+      "JSON",
+      "Bootstrap"
+    ]
+  },
+  {
+    "category": "Frameworks & Libraries",
+    "skills": ["Django", "Flask", "React", "Node", "Spring MVC"]
+  },
+  {
+    "category": "Tools and Software",
+    "skills": ["Eclipse IDE", "Visual Studio", "MATLAB", "GitHub"]
+  },
+  {
+    "category": "Cloud & Technologies",
+    "skills": ["AWS", "Google App Engine", "Git", "Jira"]
+  },
+  {
+    "category": "Methodology",
+    "skills": ["SDLC", "Agile", "Scrum", "Waterfall"]
+  },
+  {
+    "category": "IDEs",
+    "skills": ["IntelliJ IDEA", "Eclipse", "VScode", "NetBeans"]
+  },
+  {
+    "category": "Cloud Computing",
+    "skills": ["AWS", "Azure", "GCP", "AWS Microservices", "AWS Lambda"]
+  },
+  {
+    "category": "J2EE Technologies",
+    "skills": [
+      "Servlets",
+      "JSP",
+      "JSTL",
+      "JavaBeans",
+      "JDBC",
+      "JSTL",
+      "Spring JSF",
+      "JQuery",
+      "RESTful APIs"
+    ]
+  },
+  {
+    "category": "Build / Other Tools",
+    "skills": ["Maven", "Junit", "Mockito"]
+  },
+  {
+    "category": "Version Control Tools",
+    "skills": ["Git", "GitHub"]
+  },
+  {
+    "category": "Operating Systems",
+    "skills": ["Windows", "Linux"]
+  }
+]
