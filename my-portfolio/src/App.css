@@ -3,7 +3,7 @@
 /* Base styling for the app container */
 
 body {
-  background-image: url("C:\Users\srika\OneDrive\Desktop\Portfolio-sample\my-portfolio\public\bg-3d-img.jpg"); /* or use a gradient */
+  background-image: url("../public/bg-3d-img.jpg"); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
