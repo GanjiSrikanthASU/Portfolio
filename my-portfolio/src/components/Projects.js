@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ProjectDetail from "./ProjectDetail";
 import "../css/Projects.css";
-import projectsData from "../projectsData.json"; 
+import projectsData from "../projectsData.json";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  useEffect(() => {}, []);
-
   const handleProjectClick = (project) => {
-    setSelectedProject(project);
+    setSelectedProject(null); // Reset the detail
+    setTimeout(() => setSelectedProject(project), 0); // Set the selected project after a brief delay
   };
 
   return (
@@ -23,19 +22,13 @@ function Projects() {
               className="project-card"
               onClick={() => handleProjectClick(project)}
             >
-              <div className="project-card-inner">
-                <div className="project-card-front">
-                  <h3>{project.title}</h3>
-                </div>
-                <div className="project-card-back">
-                  <p>{project.technologies}</p>
-                </div>
-              </div>
+              <h3>{project.title}</h3>
             </div>
           ))}
         </div>
       </div>
-      <ProjectDetail project={selectedProject} />
+      {/* Render ProjectDetail only if a project is selected */}
+      {selectedProject && <ProjectDetail project={selectedProject} />}
     </div>
   );
 }

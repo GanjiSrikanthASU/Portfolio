@@ -11,8 +11,8 @@
 
 .section-title {
   font-size: 2.5rem;
-  margin-bottom: 0rem; 
-  margin-top: -1rem; 
+  margin-bottom: 0rem;
+  margin-top: -1rem;
   text-align: center;
   color: #333;
   position: relative;
@@ -24,7 +24,6 @@
   -ms-background-clip: text; /* Internet Explorer */
   -o-background-clip: text; /* Opera */
   -webkit-text-fill-color: transparent;
-  animation: textGlow 1.5s ease-in-out infinite;
 }
 
 .section-title::after {
@@ -38,15 +37,6 @@
   animation: underlineSlide 1.5s ease-in-out infinite;
 }
 
-@keyframes textGlow {
-  0%, 100% {
-    text-shadow: 0 0 5px #007acc, 0 0 10px #007acc, 0 0 20px #007acc, 0 0 40px #007acc;
-  }
-  50% {
-    text-shadow: 0 0 10px #00c6ff, 0 0 20px #00c6ff, 0 0 40px #00c6ff, 0 0 80px #00c6ff;
-  }
-}
-
 @keyframes underlineSlide {
   0%, 100% {
     width: 50px;
@@ -55,6 +45,7 @@
     width: 100px;
   }
 }
+
 
 .education-container {
   display: flex;

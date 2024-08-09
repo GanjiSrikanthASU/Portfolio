@@ -98,14 +98,6 @@
 }
 
 /* Mobile Toggle Button (Optional) */
-.navbar-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 
 @media (max-width: 768px) {
   .navbar-toggle {
@@ -121,3 +113,49 @@
     display: flex;
   }
 }
+
+/* Existing styles remain unchanged */
+
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* Show the toggle button on smaller screens */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: left;
+  }
+
+  .nav-brand a {
+    font-size: 1.5rem;
+  }
+}
+
